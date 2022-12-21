@@ -1,0 +1,71 @@
+.card-web-app {
+    border: solid;
+    background: rgba(109, 10, 211, 0.5);
+    border-radius: 8px;
+    width: 178px;
+    height: 174px;  
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.web-app {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E0E0E0;
+}
+
+.texto-web-app {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+}
+
+.plat1, .plat2 {
+    display: flex;
+}
+
+.plat-web1, .plat-web2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 24px;
+    color: #580AAF;
+    background: #D1FFA2;
+    border-radius: 10px;
+    padding: 1px 10px;
+    margin: 2px;
+}
+
+.ab {
+        position: absolute;
+        z-index: 1;
+        opacity: 0.1;
+        border: solid blue;
+    }
+    
+.cd {
+        position: absolute;
+        z-index: -1;
+        height: 170px;
+        width: 170px;
+    }
+
+.xxx {
+    display: flex;
+    margin: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    border: solid;
+}

@@ -175,10 +175,10 @@ nav ul li:hover {
 }
 
 .section3 {
-    border: solid;
+    border: solid green;
     width: 960px;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    justify-content: space-between;
 }
 
 .title-s3 {
@@ -192,9 +192,10 @@ nav ul li:hover {
 }
 
 .img-ptf-1, .img-ptf-2 {
+    margin-bottom: 10px;
+    border: solid red;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
 }
 
 .card-web-app {
@@ -220,7 +221,7 @@ nav ul li:hover {
 
 .texto-web-app {
     font-family: 'Raleway';
-        font-style: normal;
+    font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 20px;
@@ -244,3 +245,65 @@ nav ul li:hover {
     margin: 2px;
 }
 
+/*.ab {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.cd {
+    position: absolute;
+    z-index: -1;
+}*/
+
+.section4 {
+    border: solid;
+    height: 960px;
+}
+
+.title-s4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #0098EF;
+    margin: 30px 0;
+}
+
+.card-serv {
+    background-color: #00CF95;
+    border: 5px solid #D1FFA2;
+    width: 308px;
+    height: 218px;
+}
+
+.card-serv:hover {
+    border: 5px solid #5A0CB0;
+    cursor: pointer;
+}
+
+.img-serv {
+    margin: 20px;
+}
+
+.type-serv {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #5A0CB0;
+    background-color: #D1FFA2;
+    border-radius: 8px 0px 0px 8px;
+    padding: 7px 20px;
+    margin: 50px 0 0 100px;
+    text-align: right;
+}
+
+.type-serv:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #5A0CB0;
+}
